@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/RQI-API-Automation-.git'
+                git 'https://github.com/PankajLaerdal/RQI-API-Automation-.git'
+                    
             }
         }
 
