@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "curriculum_id": { "type": "integer" },
+      "curriculum_name": { "type": "string" },
+      "curriculam_status": { "type": "string" },
+      "total_courses": { "type": ["integer", "null"] },
+      "total_completed_courses": { "type": ["integer", "null"] },
+      "complaint_until": { "type": ["string", "null"] },
+      "ecard_until": { "type": ["string", "null"] },
+      "is_recurrence": { "type": "integer" },
+      "session": { "type": ["string", "null"] },
+      "is_perpetual": { "type": "integer" },
+      "status": { "type": "string" }
+    },
+    "required": [
+      "curriculum_id",
+      "curriculum_name",
+      "curriculam_status"
+    ]
+  }
+}
